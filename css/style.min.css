@@ -121,7 +121,7 @@ body.fluid {
 }
 
 body.black {
-    background-color: #000 !important
+    background-color: #111 !important
 }
 
 body.darkback {
@@ -982,7 +982,7 @@ body.miniPlayer #lock-pause .bt .bck {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #fff;
     -webkit-transform: translateZ(0);
     transform: translateZ(0)
 }
@@ -996,7 +996,7 @@ body.miniPlayer #lock-pause .bt .bck {
     margin-left: -1024px;
     margin-top: -675px;
     background-position: 50%;
-    background-size: 500%;
+    background-size: 125%;
     -webkit-transform: scale(1);
     transform: scale(1)
 }
@@ -1035,8 +1035,8 @@ body.miniPlayer #lock-pause .bt .bck {
 
 #home #img-version {
     position: absolute;
-    top: 0px;
-    left: 715px;
+    top: -70px;
+    left: 37%;
     height: 39px;
     width: 450px;
     margin-left: -75px;
@@ -4213,8 +4213,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 
 .appDesktop #game {
     background-size: 1024px 400px !important;
-    background-position: 0 116px !important;
-
+    background-position: 0 116px !important
 }
 
 #game #box-video {
